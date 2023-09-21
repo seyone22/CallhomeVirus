@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.33808.371
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallhomeVirus", "CallhomeVirus\CallhomeVirus.vcxproj", "{56C95914-B500-45C5-ABEB-F409AE4AB69D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USB Device", "USB Device", "{E22BE593-6214-4066-9427-75BE02FF58F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "payload", "payload", "{F6547271-5040-4806-826E-358EE3E8D902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6547271-5040-4806-826E-358EE3E8D902} = {E22BE593-6214-4066-9427-75BE02FF58F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA7C5665-FB91-4674-A89C-EFFABA6283A4}
