@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USB Device", "USB Device", "{E22BE593-6214-4066-9427-75BE02FF58F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "payload", "payload", "{F6547271-5040-4806-826E-358EE3E8D902}"
+	ProjectSection(SolutionItems) = preProject
+		autorun.ini = autorun.ini
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
